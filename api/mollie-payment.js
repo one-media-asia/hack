@@ -67,7 +67,7 @@ export default async function handler(req, res) {
   }
 
   const payload = {
-    description: description || `Diving in Asia — Booking #${booking_id}`,
+    description: description || `Diving In Asia[] — Booking #${booking_id}`,
     amount: {
       currency: 'EUR',
       value: amountValue.toFixed(2),

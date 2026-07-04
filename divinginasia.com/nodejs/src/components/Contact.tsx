@@ -29,7 +29,7 @@ const Contact = () => {
     try {
       const payload = {
         access_key: 'b42b4f7a-b0b3-4ba9-8197-cf5abe9f09e6',
-        subject: 'message from diving in asia',
+        subject: 'message from Diving In Asia[]',
         name: `${formData.firstName} ${formData.lastName}`,
         email: formData.email,
         message: formData.message,

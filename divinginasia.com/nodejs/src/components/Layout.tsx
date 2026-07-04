@@ -9,7 +9,7 @@ const Footer: React.FC = () => (
 
         {/* Brand */}
         <div className="col-span-2 md:col-span-1">
-          <div className="text-xl font-bold text-cyan-400 mb-3">Diving In Asia</div>
+          <div className="text-xl font-bold text-cyan-400 mb-3">Diving In Asia[]</div>
           <p className="text-gray-400 text-sm leading-relaxed mb-4">
             Koh Tao's premier dive school. PADI courses, fun diving, and unforgettable underwater adventures.
           </p>
@@ -61,7 +61,7 @@ const Footer: React.FC = () => (
 
       {/* Bottom bar */}
       <div className="border-t border-[#1a3a5c] pt-6 flex flex-col md:flex-row justify-between items-center gap-3 text-xs text-gray-500">
-        <div>© {new Date().getFullYear()} Diving In Asia — All rights reserved</div>
+        <div>© {new Date().getFullYear()} Diving In Asia[] — All rights reserved</div>
         <div>
           Powered by{' '}
           <a href="https://www.onemedia.asia" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:text-cyan-300 transition font-medium">

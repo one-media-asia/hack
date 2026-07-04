@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="agd-partner-manual-verification" />
-    <title>Diving In Asia</title>
+    <title>Diving In Asia[]</title>
     <meta name="description" content="One Media Projeckt" />
     <meta name="author" content="divinginasia" />
 

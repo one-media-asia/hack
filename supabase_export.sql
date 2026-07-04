@@ -6013,7 +6013,7 @@ c9c40e12-091f-43d9-a9b1-1478a48735f1	open-water	nl	hero_subtitle	text	De PADI Op
 2f6140c7-f240-4d62-8042-31eb6ebd87f8	home	en	course_rescue_price_usd	text	290	contact@prodiving.asia	2026-03-12 13:33:29.379002+00	2026-03-16 18:01:39.262481+00
 e92ddf41-f1fb-4cc8-ad5c-204b302e4a54	things-to-do	en	activities_title	text	Popular activities	\N	2026-03-28 13:31:13.441375+00	2026-03-28 13:31:13.441375+00
 2b568344-ef97-4a8a-b075-47372880d4b2	things-to-do	en	activities_list	text	Take a snorkeling tour to hidden bays\nJoin a Thai cooking class\nRent a kayak or paddleboard\nExplore the island hiking trails\nRelax with a beach massage\nJoin a yoga or fitness class\nEnjoy sunset views from a rooftop bar\nVisit local art galleries and markets	\N	2026-03-28 13:31:13.441375+00	2026-03-28 13:31:13.441375+00
-33473547-da30-4437-8cd7-891107ce3ab0	home	en	hero_title	text	Dive Koh Tao with Diving in Asia.	contact@prodiving.asia	2026-03-12 10:01:50.741687+00	2026-03-16 18:01:39.262481+00
+33473547-da30-4437-8cd7-891107ce3ab0	home	en	hero_title	text	Dive Koh Tao with Diving In Asia[].	contact@prodiving.asia	2026-03-12 10:01:50.741687+00	2026-03-16 18:01:39.262481+00
 779cbd58-48f6-4e93-9c4c-6b8985070615	things-to-do	en	cta_fun_diving	text	Go fun diving	\N	2026-03-28 13:31:13.441375+00	2026-03-28 13:31:13.441375+00
 de1e8b4e-8c76-4b77-9002-a5fba9b694d1	things-to-do	en	cta_beaches	text	Discover beaches	\N	2026-03-28 13:31:13.441375+00	2026-03-28 13:31:13.441375+00
 f85354db-ea23-406a-9990-d0f577e37a82	open-water	en	price_eur	text	2900	contact@prodiving.asia	2026-03-10 12:04:54.885159+00	2026-03-19 10:25:21.584591+00
@@ -6148,7 +6148,7 @@ ab2879fa-5a5c-4bee-b06a-d5fa7bfcf2c1	home	nl	about_title	textarea	Van PADI Open 
 d817228c-ead6-4cba-926a-66e168ffa3c0	home	nl	course_divemaster_duration	text	2-4 weken	contact@prodiving.asia	2026-03-12 10:57:14.010608+00	2026-03-14 18:50:05.442579+00
 cf561b32-e763-4e63-ac43-2df9bc10f732	home	nl	course_divemaster_max_depth	text	40m	contact@prodiving.asia	2026-03-12 10:57:14.010608+00	2026-03-14 18:50:05.442579+00
 780e1263-d696-4b0f-b5eb-d0180cf5ac6c	home	nl	course_divemaster_price	text	฿41,000	contact@prodiving.asia	2026-03-12 10:57:14.010608+00	2026-03-14 18:50:05.442579+00
-eb61fc50-7648-453c-ab45-ef6958a04aff	home	nl	hero_title	text	Duiken op Koh Tao met Diving in Asia	contact@prodiving.asia	2026-03-12 10:57:14.010608+00	2026-03-14 18:50:05.442579+00
+eb61fc50-7648-453c-ab45-ef6958a04aff	home	nl	hero_title	text	Duiken op Koh Tao met Diving In Asia[]	contact@prodiving.asia	2026-03-12 10:57:14.010608+00	2026-03-14 18:50:05.442579+00
 388f12b0-4713-4e6b-a7ea-8d02dfd78eec	home	nl	hero_subtitle	textarea	Ontdek eerste klas duiken, vriendelijke instructeurs en een onvergetelijk onderwater avontuur op Koh Tao.	contact@prodiving.asia	2026-03-12 10:57:14.010608+00	2026-03-14 18:50:05.442579+00
 ca28cec5-36b7-42f7-a580-b8845cfa81fd	home	en	course_efr_price_eur	text	120	contact@prodiving.asia	2026-03-12 13:33:29.379002+00	2026-03-16 18:01:39.262481+00
 a225d70e-5eec-4e28-bd2b-53f8b10aea05	home	en	course_rescue_title	text	PADI Rescue Diver	contact@prodiving.asia	2026-03-12 10:01:50.741687+00	2026-03-16 18:01:39.262481+00

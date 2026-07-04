@@ -833,7 +833,7 @@ $logo_url = get_site_icon_url( 64 );
         document.getElementById('inv-amount').value = !isNaN(tot) && tot > 0
           ? (tot / 34).toFixed(2)  // rough THB→EUR if total stored in THB
           : '';
-        document.getElementById('inv-desc').value = `Diving in Asia — Booking #${this.dataset.id}`;
+        document.getElementById('inv-desc').value = `Diving In Asia[] — Booking #${this.dataset.id}`;
         document.getElementById('inv-result').style.display = 'none';
         document.getElementById('invoice-modal').classList.add('open');
       });
@@ -859,7 +859,7 @@ $logo_url = get_site_icon_url( 64 );
     document.getElementById('pp-name').value  = btn.dataset.name  || '';
     document.getElementById('pp-email').value = btn.dataset.email || '';
     document.getElementById('pp-amount').value = btn.dataset.deposit ? Math.round(parseFloat(btn.dataset.deposit)) : '';
-    document.getElementById('pp-desc').value  = btn.dataset.title ? `Diving in Asia — ${btn.dataset.title}` : 'Diving in Asia — Booking Deposit';
+    document.getElementById('pp-desc').value  = btn.dataset.title ? `Diving In Asia[] — ${btn.dataset.title}` : 'Diving In Asia[] — Booking Deposit';
     document.getElementById('pp-result').style.display = 'none';
     modal.classList.add('open');
   });
@@ -899,7 +899,7 @@ $logo_url = get_site_icon_url( 64 );
     // Open mailto pre-filled
     const subject = encodeURIComponent(description);
     const body    = encodeURIComponent(
-      `Hi ${name},\n\nThank you for booking with Diving in Asia!\n\nPlease complete your deposit payment of ฿${amountTHB.toLocaleString()} THB using the secure PayPal link below:\n\n${paypalUrl}\n\nIf you have any questions, feel free to reply to this email.\n\nSee you underwater!\nThe Diving in Asia Team`
+      `Hi ${name},\n\nThank you for booking with Diving In Asia[]!\n\nPlease complete your deposit payment of ฿${amountTHB.toLocaleString()} THB using the secure PayPal link below:\n\n${paypalUrl}\n\nIf you have any questions, feel free to reply to this email.\n\nSee you underwater!\nThe Diving In Asia[] Team`
     );
     window.open(`mailto:${encodeURIComponent(email)}?subject=${subject}&body=${body}`, '_blank');
 
@@ -949,7 +949,7 @@ $logo_url = get_site_icon_url( 64 );
       // Open mailto with payment link
       const subject = encodeURIComponent(description);
       const body    = encodeURIComponent(
-        `Hi ${name},\n\nThank you for booking with Diving in Asia!\n\nPlease complete your payment of €${amount_eur.toFixed(2)} using the secure link below:\n\n${data.url}\n\nThis link supports iDEAL, credit card, PayPal and more.\n\nIf you have any questions, feel free to reply to this email.\n\nSee you underwater!\nThe Diving in Asia Team`
+        `Hi ${name},\n\nThank you for booking with Diving In Asia[]!\n\nPlease complete your payment of €${amount_eur.toFixed(2)} using the secure link below:\n\n${data.url}\n\nThis link supports iDEAL, credit card, PayPal and more.\n\nIf you have any questions, feel free to reply to this email.\n\nSee you underwater!\nThe Diving In Asia[] Team`
       );
       window.open(`mailto:${encodeURIComponent(email)}?subject=${subject}&body=${body}`, '_blank');
 
@@ -1117,7 +1117,7 @@ $logo_url = get_site_icon_url( 64 );
     <label>Amount (THB ฿)</label>
     <input type="number" id="pp-amount" placeholder="0" min="1" step="1" />
     <label>Description</label>
-    <input type="text" id="pp-desc" placeholder="Diving in Asia — Booking #123" />
+    <input type="text" id="pp-desc" placeholder="Diving In Asia[] — Booking #123" />
     <div id="pp-result" style="display:none;margin-bottom:12px;font-size:12px;line-height:1.6;"></div>
     <div class="modal-actions">
       <button class="btn-secondary" onclick="document.getElementById('paypal-invoice-modal').classList.remove('open')">Cancel</button>
@@ -1138,7 +1138,7 @@ $logo_url = get_site_icon_url( 64 );
     <label>Amount (EUR €)</label>
     <input type="number" id="inv-amount" placeholder="0.00" min="0.01" step="0.01" />
     <label>Description</label>
-    <input type="text" id="inv-desc" placeholder="Diving in Asia — Booking #123" />
+    <input type="text" id="inv-desc" placeholder="Diving In Asia[] — Booking #123" />
     <div id="inv-result" style="display:none;margin-bottom:12px;font-size:12px;line-height:1.6;"></div>
     <div class="modal-actions">
       <button class="btn-secondary" onclick="document.getElementById('invoice-modal').classList.remove('open')">Cancel</button>

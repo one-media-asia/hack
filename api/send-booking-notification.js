@@ -185,11 +185,11 @@ function pickCustomerTemplate(payload = {}) {
 function templateContent(template, firstName, itemTitle, paymentLine, hasPayNow, displayDeposit) {
   if (template === 'confirmed') {
     return {
-      subject: `Booking Confirmed: ${itemTitle} - Diving In Asia`,
+      subject: `Booking Confirmed: ${itemTitle} - Diving In Asia[]`,
       ribbon: 'Final Confirmation',
       heroIcon: '✅',
       heroTitle: `You are confirmed, ${firstName}!`,
-      intro: 'Your booking is secured. Thank you for choosing Diving In Asia.',
+      intro: 'Your booking is secured. Thank you for choosing Diving In Asia[].',
       statusBanner: '<p style="margin:0;color:#065f46;font-size:14px;">✅ <strong>Confirmed</strong> - Your place is secured.</p>',
       nextSteps: [
         'Our team will share final meeting details and schedule.',
@@ -204,7 +204,7 @@ function templateContent(template, firstName, itemTitle, paymentLine, hasPayNow,
 
   if (template === 'reminder') {
     return {
-      subject: `Deposit Reminder: ${itemTitle} - Diving In Asia`,
+      subject: `Deposit Reminder: ${itemTitle} - Diving In Asia[]`,
       ribbon: 'Deposit Reminder',
       heroIcon: '⏳',
       heroTitle: `Quick reminder, ${firstName}`,
@@ -222,7 +222,7 @@ function templateContent(template, firstName, itemTitle, paymentLine, hasPayNow,
   }
 
   return {
-    subject: `Booking Received: ${itemTitle} - Diving In Asia`,
+    subject: `Booking Received: ${itemTitle} - Diving In Asia[]`,
     ribbon: 'Booking Received',
     heroIcon: '🤿',
     heroTitle: `Thanks, ${firstName}!`,
@@ -307,7 +307,7 @@ export async function sendCustomerInvoiceEmail(payload = {}) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>${ui.ribbon} - Diving In Asia</title>
+  <title>${ui.ribbon} - Diving In Asia[]</title>
 </head>
 <body style="margin:0;padding:0;background:#edf2ff;font-family:'Helvetica Neue',Arial,sans-serif;-webkit-font-smoothing:antialiased;">
   <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="background:#edf2ff;padding:40px 16px;">
@@ -318,7 +318,7 @@ export async function sendCustomerInvoiceEmail(payload = {}) {
         <tr>
           <td style="background:linear-gradient(135deg,#0b3d91 0%,#1a5ed4 100%);padding:32px 40px;text-align:center;">
             <img src="https://www.lembonganwatersports.com/images/logo.png"
-                 alt="Diving In Asia"
+                 alt="Diving In Asia[]"
                  width="120" height="auto"
                  style="display:block;margin:0 auto 14px;max-width:120px;" />
             <div style="width:48px;height:2px;background:rgba(255,255,255,0.3);margin:0 auto 14px;border-radius:2px;"></div>
@@ -422,10 +422,10 @@ export async function sendCustomerInvoiceEmail(payload = {}) {
         <tr>
           <td style="background:#0b3d91;padding:20px 40px;text-align:center;">
             <img src="https://www.lembonganwatersports.com/images/logo.png"
-                 alt="Diving In Asia" width="70" height="auto"
+                 alt="Diving In Asia[]" width="70" height="auto"
                  style="display:block;margin:0 auto 10px;opacity:0.8;" />
             <p style="color:#93b4e8;margin:0;font-size:12px;line-height:1.6;">
-              © ${new Date().getFullYear()} Diving In Asia · Koh Tao, Surat Thani, Thailand<br>
+              © ${new Date().getFullYear()} Diving In Asia[] · Koh Tao, Surat Thani, Thailand<br>
               <a href="https://www.lembonganwatersports.com" style="color:#93b4e8;text-decoration:underline;">www.lembonganwatersports.com</a>
             </p>
           </td>

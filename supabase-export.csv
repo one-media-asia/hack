@@ -331,7 +331,7 @@ Rijk onderwaterleven",,2026-03-27 13:40:10.789117+00,2026-03-28 12:47:09.516174+
 32af5303-2af5-4fd2-9398-4bfe79c3c719,accommodation,nl,ctaTitle,text,Klaar om je verblijf te plannen?,,2026-03-27 11:51:48.105016+00,2026-03-28 20:56:02.462461+00
 332eae67-58e2-4f07-94a6-c25229afdb55,msdt-program,en,prereq_title,text,Prerequisites,,2026-03-28 13:22:02.219507+00,2026-03-28 13:22:02.219507+00
 3341b89c-46ea-4480-af2f-6b72183d4b83,home,nl,course_discover_scuba_price_usd,text,72,contact@prodiving.asia,2026-03-12 10:57:14.010608+00,2026-03-14 18:50:05.442579+00
-33473547-da30-4437-8cd7-891107ce3ab0,home,en,hero_title,text,Dive Koh Tao with Diving in Asia.,contact@prodiving.asia,2026-03-12 10:01:50.741687+00,2026-03-16 18:01:39.262481+00
+33473547-da30-4437-8cd7-891107ce3ab0,home,en,hero_title,text,Dive Koh Tao with Diving In Asia[].,contact@prodiving.asia,2026-03-12 10:01:50.741687+00,2026-03-16 18:01:39.262481+00
 339c9e9d-8780-44d2-865c-5ae6fcd4bbd2,koh-tao-info,nl,highlights_list,text,"Duiklocaties en duikscholen van wereldklasse
 Prachtige uitzichtpunten en wandelroutes
 Ontspannen uitgaansleven en strandbars
@@ -1629,7 +1629,7 @@ eb1b1f69-19ec-4979-8cd5-c200a8314c52,weather,nl,hero_title,text,Koh Tao Weather 
 eb2670eb-dd0e-4762-91cf-e6fafcad042a,contact,nl,form_submit_label,text,Stuur bericht,contact@prodiving.asia,2026-03-12 10:14:37.06477+00,2026-03-14 18:57:12.645596+00
 eb26e5bc-fb5c-41af-aa39-1160cba6cc28,home,nl,course_efr_price_usd,text,130,contact@prodiving.asia,2026-03-12 10:57:14.010608+00,2026-03-14 18:50:05.442579+00
 eb57df41-0583-446c-bff5-5a1a836a451d,instructor,nl,next_steps_body,text,"Stuur je duik-cv en gewenste startdata. Wij begeleiden je door IDC-vereisten, planning en doorgroeimogelijkheden.",,2026-03-28 13:19:45.973231+00,2026-03-28 13:19:45.973231+00
-eb61fc50-7648-453c-ab45-ef6958a04aff,home,nl,hero_title,text,Duiken op Koh Tao met Diving in Asia,contact@prodiving.asia,2026-03-12 10:57:14.010608+00,2026-03-14 18:50:05.442579+00
+eb61fc50-7648-453c-ab45-ef6958a04aff,home,nl,hero_title,text,Duiken op Koh Tao met Diving In Asia[],contact@prodiving.asia,2026-03-12 10:57:14.010608+00,2026-03-14 18:50:05.442579+00
 ebc91174-b693-4ea7-a1e6-bbde5734144a,how-to-get-here,nl,options_title,text,Reisopties,,2026-03-28 13:42:12.192138+00,2026-03-28 13:42:12.192138+00
 ebe41703-06ba-4b5d-8d57-c2486bb51af1,discover-scuba,nl,faq_3_answer,text,"Je krijgt een korte uitleg, veiligheidsbriefing en oefent basisvaardigheden voordat je je eerste buitenwaterduik maakt met je instructeur.",seed-script,2026-03-28 14:22:37.204447+00,2026-03-28 14:24:16.326594+00
 ebeaa00c-2c57-4c2f-a830-3b7abb0d5dbd,home,nl,course_discover_scuba_price_eur,text,66,contact@prodiving.asia,2026-03-12 10:57:14.010608+00,2026-03-14 18:50:05.442579+00

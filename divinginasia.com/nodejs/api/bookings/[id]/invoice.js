@@ -48,7 +48,7 @@ export default async function handler(req, res) {
   });
 
   const subject = `Invoice for booking: ${booking.course_title || 'Booking'}`;
-  const text = `Hello ${booking.name || ''},\n\nPlease find your invoice details below:\n\nItem: ${booking.course_title || ''}\nAmount: ${booking.deposit_amount || 'N/A'}\nStatus: ${booking.status || ''}\n\nIf you have any questions, reply to this email.\n\nRegards,\nDiving In Asia`;
+  const text = `Hello ${booking.name || ''},\n\nPlease find your invoice details below:\n\nItem: ${booking.course_title || ''}\nAmount: ${booking.deposit_amount || 'N/A'}\nStatus: ${booking.status || ''}\n\nIf you have any questions, reply to this email.\n\nRegards,\nDiving In Asia[]`;
 
   await transporter.sendMail({
     from: smtpUser,
